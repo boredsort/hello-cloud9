@@ -6,7 +6,7 @@ jobs:
   say-hello:
 
     docker:
-      - image: cimg/base:stable
+      - image: cimg/python:3.8
       
     working_directory: ~/repo
 
