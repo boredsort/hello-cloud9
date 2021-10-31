@@ -29,7 +29,11 @@ jobs:
           command: |
             . venv/bin/activate
             make lint
-      
+  
+workflows:
+  my-custom-workflow:
+    jobs:
+      - say-hello    
          
 
     
